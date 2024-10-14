@@ -1,14 +1,14 @@
  
 
-# `XLICON-V4-MD`
+# `KAMB-XMD BY IGWE TECH`
 <br>
 <br>
    
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=A93226&center=true&width=900&height=100&lines=Its%20XLICON-V4-MD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20SALMAN%20AHMAD)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=A93226&center=true&width=900&height=100&lines=Its%20XLICON-V4-MD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20DADDY%20IGWE)
 <p align="center">
   
->XLICON-V4-MD is based on :
+>KAMB-XMD is based on :
 >- [Cheems V15](https://github.com/DGXeon) by [DGXeon](https://github.com/DGXeon) (License: Apache License 2.0)
 >
 > :unicorn: Don't forget to check out! :point_right: [Cheems V15](https://github.com/DGXeon)
