@@ -5,7 +5,7 @@
 <br>
    
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=A93226&center=true&width=900&height=100&lines=Its%20XLICON-V4-MD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20DADDY%20IGWE)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=A93226&center=true&width=900&height=100&lines=Its%20KAMB-XMD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20DADDY%20IGWE)
 <p align="center">
   
 >KAMB-XMD is based on :
@@ -17,7 +17,7 @@
 ## 🌟 `Bot Intro and Features`
 <p align="center">  
   <a href="https://youtube.com/@s4salmanyt">
-    <img alt="Xlicon" height="600" width="600" src="https://iili.io/dET3ukX.md.png">
+    <img alt="KAMB" height="600" width="600" src="https://iili.io/dET3ukX.md.png">
     <h1 align="center">XLICON-V4</h1>
   </a>
 </p>
