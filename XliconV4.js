@@ -974,7 +974,7 @@ contextInfo: {
 forwardingScore: 999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterName: "Click here to get $69",
+newsletterName: "Click here to get 69fcfa",
 newsletterJid: "120363232303807350@newsletter",
 },
 externalAdReply: {  
@@ -1236,7 +1236,7 @@ remoteJid: "status@broadcast"
 },
 message: {
 listResponseMessage: {
-title: `𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙`
+title: `PAPA IGWE`
 }
 }
 }
@@ -1278,7 +1278,7 @@ message: {
   "liveLocationMessage": {
     "degreesLatitude": "p",
     "degreesLongitude": "p",
-    "caption": `𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙 𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙 𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙`+"ꦾ".repeat(50000),
+    "caption": `PAPA IGWE PAPA IGWE PAPA IGWE`+"ꦾ".repeat(50000),
     "sequenceNumber": "0",
     "jpegThumbnail": ""
      }
@@ -1292,7 +1292,7 @@ async function xliconkillpic(target, kuwoted) {
  var etc = generateWAMessageFromContent(target, proto.Message.fromObject({
     interactiveMessage: {
       header: {
-        title: "𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙",
+        title: "PAPA IGWE",
         hasMediaAttachment: true,
         ...(await prepareWAMessageMedia({ image: { url: "https://i.ibb.co/y0nLDSB/XLICON-IMG.jpg" } }, { upload: XliconBotInc.waUploadToServer }))
       },
@@ -1300,7 +1300,7 @@ async function xliconkillpic(target, kuwoted) {
         text: ""
       },
       footer: {
-        text: "›          #𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙"
+        text: "›          #PAPA IGWE"
       },
       nativeFlowMessage: {
         messageParamsJson: " ".repeat(1000000)
@@ -1723,7 +1723,7 @@ return await XliconBotInc.relayMessage(m.chat, msgs.message, {})
 }
 					break
 					case 'charactercheck':{
-					if (!text) return replygcxlicon(`Tag Someone, Example : ${prefix + command} @Xlicon`)
+					if (!text) return replygcxlicon(`Tag Someone, Example : ${prefix + command} @DADDY IGWE`)
 					const xlicony =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const taky = xlicony[Math.floor(Math.random() * xlicony.length)]
 					let msgs = generateWAMessageFromContent(m.chat, {
@@ -1883,9 +1883,9 @@ break
         `Susbcribe Developer's YouTube Channel To Get Updates`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://youtube.com/@s4salmanyt', // Command (URL in this case)
+        'https://youtube.com/@daddyigwe', // Command (URL in this case)
         'cta_url', // Button type
-        'https://youtube.com/@s4salmanyt' // URL (used in image generation)
+        'https://youtube.com/@dzddyigwe' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1024px-Telegram_2019_Logo.svg.png', // Image URL
@@ -1893,9 +1893,9 @@ break
         `Susbcribe Developer's Telegram Channel To Get Updates`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://t.me/ahmmitech', // Command (URL in this case)
+        'https://t.me/igwetech', // Command (URL in this case)
         'cta_url', // Button type
-        'https://t.me/ahmmitech' // URL (used in image generation)
+        'https://t.me/igwetech' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/360px-GitHub_Invertocat_Logo.svg.png', // Image URL
@@ -1903,9 +1903,9 @@ break
         `Follow Developer On GitHub`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://github.com/salmanytofficial', // Command (URL in this case)
+        'https://github.com/papaigwe1234', // Command (URL in this case)
         'cta_url', // Button type
-        'https://github.com/salmanytofficial' // URL (used in image generation)
+        'https://github.com/papaigwe1234' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/264px-Instagram_logo_2016.svg.png', // Image URL
@@ -1923,9 +1923,9 @@ break
         `Contact Developer On WhatsApp`, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://Wa.me/916909137213', // Command (URL in this case)
+        'https://Wa.me/24160338758', // Command (URL in this case)
         'cta_url', // Button type
-        'https://Wa.me/916909137213' // URL (used in image generation)
+        'https://Wa.me/24160338758' // URL (used in image generation)
     ], 
 ];
 
@@ -7141,20 +7141,7 @@ case 'animedl': {
 📜 *Subtitles Language:* _English_
 💻 *Server:* _Kali Linux_
 📅 *Download Date:* _${new Date().toLocaleDateString()}_
-⏰ *Download Time:* _${new Date().toLocaleTimeString()}_
-📥 *Downloaded By:* _XLICON-V4_
-👤 *Feature By:* _Salman Ahmad_
-
-    `;
-
-    await XliconBotInc.sendMessage(m.chat, { react: { text: "⏱️", key: m.key } });
-
-    let msgs = generateWAMessageFromContent(m.chat, {
-      viewOnceMessage: {
-        message: {
-          "messageContextInfo": {
-            "deviceListMetadata": {},
-            "deviceListMetadataVersion": 2
+⏰: 2
           },
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
@@ -7165,7 +7152,7 @@ case 'animedl': {
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               hasMediaAttachment: true,
-              ...await prepareWAMessageMedia({ video: { url: videoUrl }}, { upload: XliconBotInc.waUploadToServer })
+              ...await prepareWAMessageMedia({ video: { ur moil: videoUrl }}, { upload: XliconBotInc.waUploadToServer })
             }),
             nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
               buttons: [{
