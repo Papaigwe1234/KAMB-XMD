@@ -39,30 +39,30 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //owmner v card
-global.ytname = "YT: S4 SALMAN YT" //ur yt chanel name
-global.socialm = "GitHub: salmanytofficial" //ur github or insta name
+global.ytname = "YT: DADDY IGWE YT" //ur yt chanel name
+global.socialm = "GitHub: papaigwe1234" //ur github or insta name
 global.location = "Pakistan, Lahore, Sabzazar" //ur location
 
 //new
-global.botname = 'XLICON-V4-MD' //ur bot name
-global.ownernumber = ['923184070915'] //ur owner number, dont add more than one
-global.ownername = '𝙎𝙖𝙡𝙢𝙖𝙣 𝘼𝙝𝙢𝙖𝙙' //ur owner name
-global.websitex = "https://youtube.com/@s4salmanyt"
-global.wagc = "https://whatsapp.com/channel/0029VaINgEZK0IBaK1nDtE3f"
+global.botname = 'KAMB-XMD' //ur bot name
+global.ownernumber = ['24160338758'] //ur owner number, dont add more than one
+global.ownername = 'DADDY IGWE' //ur owner name
+global.websitex = "https://youtube.com/@DADDY IGWE"
+global.wagc = "https://whatsapp.com/channel/0029VartOqACMY0OUI2n350j"
 global.themeemoji = '⛩'
-global.wm = "Xlicon Bot Inc."
-global.botscript = 'https://github.com/salmanytofficial/XLICON-V4-MD' //script link
-global.packname = "𝘼𝙃𝙃𝙈𝙄 𝙆𝙐𝙉"
-global.author = "MΛDΣ BY 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿"
-global.creator = "923184070915@s.whatsapp.net"
+global.wm = "IGWE TECH Inc."
+global.botscript = 'https://github.com/papaigwe1234/KAMB-XMD' //script link
+global.packname = "DADDY IGWE"
+global.author = "MΛDΣ BY PAPA IGWE TECH"
+global.creator = "24160338758@s.whatsapp.net"
 global.xprefix = '.'
-global.premium = ["923184070915"] // Premium User
+global.premium = ["24160338758"] // Premium User
 
 //bot sett
 global.typemenu = 'v12' // menu type 'v1' => 'v12'
 global.typereply = 'v4' // reply type 'v1' => 'v4'
 global.autoblocknumber = '212' //set autoblock country code
-global.antiforeignnumber = '91' //set anti foreign number country code
+global.antiforeignnumber = '241' //set anti foreign number country code
 global.antidelete = false //set anti delete 
 
 
