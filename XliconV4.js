@@ -2318,7 +2318,7 @@ case 'namazchk': {
 
 ${ratingMessage}
 
-*Thank you for answering all the prayers. May Allah bless you!* 🙏
+*Thank you for answering all the prayers. igwe bless you!* 🙏
       `;
 
       await XliconBotInc.sendText(m.chat, finalMessage);
@@ -4136,7 +4136,7 @@ break
 case 'store':
 case 'shop': 
 case 'list': {
-let teks = '┌──⭓「 *LIST STORE* 」\n│\n'
+let teks = '┌──⭓「 *LISTE MAGASIN* 」\n│\n'
 for (let x of db_respon_list) {
 teks += `│⭔ ${x.key}\n`
 }
@@ -9763,7 +9763,7 @@ case 'dere':{
     "shout you bastard in front of your mom/papa",
     "change the name to i am idiot for 24 hours",
     "slap urself firmly and send the sound of slap through voice noteðŸ˜‚",
-    "say i love the bot owner xlicon through voice note",
+    "say i love the bot owner DADDY IGWE through voice note",
     "send your gf/bf pic here",
     "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
     "breakup with your best friend for 5hrs without telling him/her that its a dare",
@@ -11605,7 +11605,7 @@ case 'checkgpt': {
     let data = await response.json();
     
     // Prepare feedback based on the result
-    let feedback = `*🤖 GPT Text Analysis*\n\n`;
+    let feedback = `*🤖 GPT KAMB Text Analysis*\n\n`;
     feedback += `*📝 Input Text:* \n_${data.result.input_text}_\n\n`;
     feedback += `*🌐 Detected Language:* \n_${data.result.detected_language}_\n\n`;
     feedback += `*💡 AI Detection Feedback:* \n_${data.result.feedback}_\n\n`;
@@ -11683,7 +11683,7 @@ break;
           },
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
-              text: '> Xlicon\n\n' + message
+              text: '> Kamb\n\n' + message
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
               text: botname
@@ -12123,7 +12123,7 @@ case 'matches':
 
     case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 let me = m.sender
-let teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/SBXWb1R/donate.jpg`
+let teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.imgur.com/PI8gbtU.jpeg`
 sendXliconBotIncMessage(m.chat, { 
 text: teks,
 mentions:[sender],
@@ -12196,7 +12196,7 @@ case 'runtime': {
 			}
 			break
 case 'ghstalk': case 'githubstalk':{
-if (!q) return replygcxlicon(`Example ${prefix+command} DGXlicon`)
+if (!q) return replygcxlicon(`Example ${prefix+command} DADDY IGWE`)
 await XliconStickWait()
 let githubstalk = require('./lib/scraper')
 aj = await githubstalk.githubstalk(`${q}`)
@@ -12225,7 +12225,7 @@ Updated At : ${aj.updated_at}` }, { quoted: m } )
 }
 break
 case 'npmstalk':{
-if (!q) return replygcxlicon(`Example ${prefix+command} xliconapi`)
+if (!q) return replygcxlicon(`Example ${prefix+command} igweapi`)
 await XliconStickWait()
 let npmstalk = require('./lib/scraper')
 eha = await npmstalk.npmstalk(q)
@@ -12344,7 +12344,7 @@ break;
 
 
 case 'wachannelstalk': {
-  if (!text) return replygcxlicon(`*Where is the WhatsApp Channel URL?*\n_Example:_\n${prefix}${command} https://whatsapp.com/channel/0029VaGvk6XId7nHNGfiRs0m`);
+  if (!text) return replygcxlicon(`*Where is the WhatsApp Channel URL?*\n_Example:_\n${prefix}${command} https://whatsapp.com/channel/0029VartOqACMY0OUI2n350j`);
 
   try {
     // Fetch WhatsApp channel data using the provided API
@@ -14482,7 +14482,7 @@ XliconBotInc.sendMessage(m.chat, {text: `Here @${teman.split("@")[0]}`, mentions
 }
 break
             case 'wanumber': case 'nowa': case 'searchno': case 'searchnumber':{
-           	if (!text) return replygcxlicon(`Provide Number with last number x\n\nExample: ${prefix + command} 91690913721x`)
+           	if (!text) return replygcxlicon(`Provide Number with last number x\n\nExample: ${prefix + command} 2416033875x`)
 var inputnumber = text.split(" ")[0]
         
         replygcxlicon(`Searching for WhatsApp account in given range...`)
@@ -15712,7 +15712,7 @@ await XliconBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 			case 'invite': {
 	if (!m.isGroup) return XliconStickGroup()
 	if (!m.isBotAdmin) return XliconStickBotAdmin()
-if (!text) return replygcxlicon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 916909137213`)
+if (!text) return replygcxlicon(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 24160338758`)
 if (text.includes('+')) return replygcxlicon(`Enter the number together without *+*`)
 if (isNaN(text)) return replygcxlicon(`Enter only the numbers plus your country code without spaces`)
 let group = m.chat
@@ -19234,7 +19234,7 @@ await XliconBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 				if (!m.isAdmin) return XliconStickAdmin()
 				if (!m.isBotAdmin) return XliconStickBotAdmin()
 				if (!text && !m.quoted) {
-					replygcxlicon(`Example: ${prefix + command} 91xxx`)
+					replygcxlicon(`Example: ${prefix + command} 241xxx`)
 				} else {
 					const numbersOnly = text ? text.replace(/\D/g, '') + '@s.whatsapp.net' : m.quoted?.sender
 					await XliconBotInc.groupParticipantsUpdate(m.chat, [numbersOnly], 'promote').catch((err) => replygcxlicon('Fail!'))
@@ -19247,7 +19247,7 @@ await XliconBotInc.relayMessage(msg.key.remoteJid, msg.message, {
 				if (!m.isAdmin) return XliconStickAdmin()
 				if (!m.isBotAdmin) return XliconStickBotAdmin()
 				if (!text && !m.quoted) {
-					replygcxlicon(`Example: ${prefix + command} 91xxx`)
+					replygcxlicon(`Example: ${prefix + command} 241xxx`)
 				} else {
 					const numbersOnly = text ? text.replace(/\D/g, '') + '@s.whatsapp.net' : m.quoted?.sender
 					await XliconBotInc.groupParticipantsUpdate(m.chat, [numbersOnly], 'demote').catch((err) => replygcxlicon('Failed!'))
@@ -20518,14 +20518,14 @@ case 'ytmp3': case 'ytaudio': case 'ytplayaudio': {
             // Prepare video details
             const { title, duration, timestamp, ago, views, name, channel, thumbnail, mp4 } = hasil.result;
     
-            const caption = `*_DOWNLOADED BY XLICON V4 MD_*\n\n
+            const caption = `*_DOWNLOADED BY KAMB XMD_*\n\n
     🎬 *Title*: _${title}_\n
     ⏱️ *Duration*: _${duration} seconds_\n
     📅 *Uploaded*: _${ago}_\n
     👁️ *Views*: _${views.toLocaleString()}_\n
     👤 *Uploader*: _${name}_\n
     🔗 *Channel*: _${channel}_\n\n
-    ✨ *Enjoy your video!* 🎥\n🔥 *Powered by Xlicon Bot* 💻`;
+    ✨ *Enjoy your video!* 🎥\n🔥 *Powered by KAMB-XMD Bot* 💻`;
     
             // Send video with caption
             await XliconBotInc.sendMessage(m.chat, {
@@ -20583,7 +20583,7 @@ case 'ytmp3': case 'ytaudio': case 'ytplayaudio': {
           }
   
           const videoLink = hasil.video;
-          const caption = `*_DOWNLOADED BY XLICON V4 MD_*\n\n
+          const caption = `*_DOWNLOADED BY KAMB-XMD_*\n\n
   🎬 *Title*: _${hasil.title}_\n
   ✨ *Enjoy your video!* 🎥\n🔥 *Powered by Xlicon Bot* 💻`;
   
@@ -21156,7 +21156,7 @@ const axios = require('axios');
             const me = m.sender
 			const xmenu_oh = `
 ╭──❍「 *GREETING* 」❍
-├ *Hi 👋*
+├ *Hi DARLING👋*
 ├ *${m.pushName}* 
 ├ *${xliconytimewisher} 😄* 
 ╰─┬────❍ ${readmore}
@@ -21363,19 +21363,19 @@ let msg = generateWAMessageFromContent(m.chat, {
             buttons: [
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@s4salmanyt\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/daddyigwe\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xliconbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/daddyigwe\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/salmanytofficial\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/papaigwe1234\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaINgEZK0IBaK1nDtE3f\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VartOqACMY0OUI2n350j\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -21425,19 +21425,19 @@ let msg = generateWAMessageFromContent(m.chat, {
                   buttons: [
              {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@s4salmanyt\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@daddyigwe\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xliconbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/daddyigwe\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/salmanytofficial\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/papaigwe1234\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VaINgEZK0IBaK1nDtE3f\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp ☘️\",\"url\":\"https://whatsapp.com/channel/0029VartOqACMY0OUI2n350j\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
   "name": "quick_reply",
@@ -21585,15 +21585,15 @@ let msg = generateWAMessageFromContent(m.chat, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@s4salmanyt\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YouTube 🌹\",\"url\":\"https://youtube.com/@daddyogwe\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/xliconbotinc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Telegram 💧\",\"url\":\"https://t.me/daddyigwe\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/salmanytofficial\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"GitHub 🔘\",\"url\":\"https://github.com/papaigwe1234\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
